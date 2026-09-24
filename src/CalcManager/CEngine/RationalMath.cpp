@@ -402,7 +402,7 @@ Rational RationalMath::Mod(Rational const& a, Rational const& b)
 
     try
     {
-        modrat(&prat, pn);
+        remrat(&prat, pn);
         destroyrat(pn);
     }
     catch (uint32_t error)
